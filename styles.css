@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #131313;
+}
+
+.navbar {
+    border-radius: 5px;
+}
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+    border: 1px solid grey;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.navbar-nav {
+    font-size: 20px;
+}
+
+.titulo {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 300px 30px 300px;
+    border: 1px solid #808080;
+    border-radius: 25px 0;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .form-check .form-check-input {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flexbox;
+    justify-content: center;
+}
+.col .card {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: grey;
+    width: 300px;
+}
+
+.accordion-button {
+    background: #000;
+    color: grey;
+}
+
+.noticias {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 300px 30px 300px;
+    border: 1px solid #808080;
+    border-radius: 25px 0;
+}
+
+#formulario {
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 25px 0;
+    background: #000;
+}
+
+.mb-3 {
+    color: grey;
+}
+
+.contacto {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 300px 30px 300px;
+    border: 1px solid #808080;
+    border-radius: 25px 0;
+}
+
+.redes {
+    color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.redes .fab {
+    margin: 10px;
+}
+.redes .far {
+    margin: 10px;
+}
+
+footer {
+    font-weight: bolder;
+    text-align: center;
+    background: darkslategrey;
+    padding: 20px;
+    margin-top: 20px
+}
